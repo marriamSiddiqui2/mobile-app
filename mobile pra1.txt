@@ -1,0 +1,118 @@
+question 1 void main() {
+  int num1 = 10;
+  int num2 = 3;
+  int quotient = num1 ~/ num2;
+  print('The quotient of $num1 divided by $num2 is: $quotient');
+}
+ questuion 2 void main() {
+  final num = 5;
+  final negativeNum = -num;
+  print('The negative of $num is: $negativeNum');
+}
+ question 3   void main() {
+  int num1 = 10 , num2 = 20;
+  if (num1 <= num2) {
+    print('$num1 is less than or equal to $num2');
+  } else {
+    print('$num1 is greater than $num2');
+  }
+}
+
+ question 4       void main() {
+  int num1 = 10;
+  int num2 = 20;
+  if (num1 != num2) {
+    print('$num1 and $num2 are not equal');
+  } else {
+    print('$num1 and $num2 are equal');
+  }
+} 
+  question 5          void main() {
+  int num1 = 10;
+  int num2 = 20;
+ if (num1 != num2) {
+    print('$num1 and $num2 are not equal');
+  } else {
+    print('$num1 and $num2 are equal');
+  }
+}       
+
+
+
+q6                void main() {
+  value = null;
+  value ??= 100;
+  print('The value is: $value');
+}
+
+
+
+    q7 
+                            void main() {
+  int age = 20;
+  bool isCitizen = true;
+  if (age >= 18 && isCitizen) {
+    print('The person is eligible to vote.');
+  } else {
+    print('The person is not eligible to vote.');
+  }
+}
+
+
+
+q8 void main() {
+  bool isPremiumMember = false;
+  double purchaseAmount = 120.0;
+  if (isPremiumMember || purchaseAmount > 100) {
+    print('The user is eligible for a discount.');
+  } else {
+    print('The user is not eligible for a discount.');
+  }
+}
+
+
+q9 void main() {
+   bool isSubscribed = false;
+  if (!isSubscribed) {
+    print('The user will receive a promotional offer.');
+  } else {
+    print('The user will not receive a promotional offer.');
+  }
+}
+
+   
+
+q10 void main() {  int number = -5;
+String result = number >= 0 ? 'Positive' : 'Negative';
+print('The number is: $result');
+}
+        
+
+
+q11 void main() {
+  int number = 8;
+  String result = (number % 2 == 0) ? 'Even' : 'Odd';
+  print('The number $number is: $result');
+}
+         
+
+
+q12      void main() {int age = 17;
+  String eligibility = (age >= 18) ? 'Eligible to vote' : 'Not eligible to vote';
+  print('The person is: $eligibility');
+}
+
+
+
+
+
+q13       void main() {
+   bool isPremiumMember = true;
+  double purchaseAmount = 80.0;
+  String discountEligibility = (isPremiumMember || purchaseAmount > 100) 
+      ? 'Eligible for a discount' 
+      : 'Not eligible for a discount';
+ print('The user is: $discountEligibility');
+}
+
+                                                                                       
