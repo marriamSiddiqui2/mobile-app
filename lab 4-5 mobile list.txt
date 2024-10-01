@@ -1,0 +1,39 @@
+1) How do you declare an empty list in Dart?
+List<dynamic> emptyList = [];
+
+
+
+2) How do you access elements in a Dart list?
+List<int> numbers = [1, 2, 3, 4];
+int firstElement = numbers[0];  
+print(firstElement);  
+// Output: 1
+
+
+
+
+3) Explain how to add an element to the end of a Dart list.
+List<String> fruits = ['Apple', 'Banana'];
+fruits.add('Orange');  
+print(fruits); 
+ // Output: [Apple, Banana, Orange]
+
+
+
+
+4) How do you remove an element from a specific index in a Dart list?
+List<int> numbers = [1, 2, 3, 4];
+numbers.removeAt(2);  
+print(numbers);  
+
+// Output: [1, 2, 4]
+
+
+
+
+5) What is the length property of a Dart list?
+List<String> names = ['Alice', 'Bob', 'Charlie'];
+int listLength = names.length;
+print(listLength); 
+
+ // Output: 3
