@@ -1,0 +1,103 @@
+How do you declare an empty map in Dart?
+Map<KeyType, ValueType> myMap = {};
+in terms of strings 
+
+Map<String, int> myMap = {};
+
+
+2) Example of initializing a map with key-value pairs:
+Map<String, int> myMap = {
+  'apple': 5,
+  'banana': 3,
+  'orange': 8,
+};
+A key-value pair is a fundamental concept used in data structures like maps (also called dictionaries or hashmaps in other languages).
+
+
+3) How to access the value associated with a specific key in a Dart map:
+to access the value associated with a specific key, you use square brackets []. For example:
+Map<String, int> myMap = {
+  'apple': 5,
+  'banana': 3,
+  'orange': 8,
+};
+int value = myMap['apple'];
+print(value); // Output: 5
+
+
+4) How to add a new key-value pair to a Dart map:
+myMap['grape'] = 7;
+
+
+
+5) What is the length property of a Dart map?
+int mapLength = myMap.length;
+print(mapLength); // Output: 4 (if there are 4 entries in the map)
+
+
+
+
+question :
+void main() {
+  int a = 15;
+  int b = 7;
+  int sum = a + b;
+
+  print("The sum of a and b is: $sum");
+}
+ 
+
+q2222222
+void main() {
+  double x = 10.5;
+  double y = 3.2;
+  double product = x * y;
+
+  print("The product of x and y is: $product");
+}
+
+
+
+q3333333
+void main() {
+  int num = -8;
+  int absoluteValue = num.abs();
+
+  print("The absolute value of num is: $absoluteValue");
+}
+
+
+
+q444444
+import 'dart:math';  // Needed for the ceil and floor functions
+
+void main() {
+  double decimalNum = 7.3;
+
+  int ceilingValue = decimalNum.ceil();
+  int floorValue = decimalNum.floor();
+
+  print("The ceiling of decimalNum is: $ceilingValue");
+  print("The floor of decimalNum is: $floorValue");
+}
+
+
+q5555
+
+void main() {
+  int a = 15;
+  int b = 7;
+
+  bool isAGreater = a > b;
+
+  print("Is a greater than b? $isAGreater");
+}
+
+
+
+
+
+
+LAB #05
+
+
