@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/page1.dart';
-
-
+import 'package:provider/provider.dart';
+import 'model/cart_model.dart';  // Updated import path
+import 'login.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => CartModel(),
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -13,11 +18,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Navigation Example',
+      title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
       ),
-      home: const Intro(), 
+      home: const Login(),
     );
   }
 }
+
